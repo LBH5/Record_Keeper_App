@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Record Keeper App</string>
+    <string name="icon_title_running">Running</string>
+    <string name="icon_title_cycling">Cycling</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
