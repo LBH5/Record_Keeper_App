@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Shadows & Overlays -->
+    <color name="shadow_light">#55FFFFFF</color> <!-- 33% white for subtle glow -->
+    <color name="shadow_medium">#88FFFFFF</color> <!-- stronger white shadow -->
+    <color name="shadow_strong">#AAFFFFFF</color> <!-- near white for neon/glow -->
+    <color name="scrim_light">#80000000</color> <!-- dark overlay remains same -->
+
+    <!-- Text colors -->
+    <color name="text_primary_dark">#FFFFFF</color> <!-- white -->
+    <color name="text_secondary_dark">#B3FFFFFF</color> <!-- 70% white -->
+    <color name="text_hint_dark">#80FFFFFF</color> <!-- 50% white -->
+    <color name="text_disabled_dark">#60FFFFFF</color> <!-- 38% white -->
+
+    <!-- Optional link color -->
+    <color name="text_link_dark">#64B5F6</color> <!-- lighter blue -->
+</resources>

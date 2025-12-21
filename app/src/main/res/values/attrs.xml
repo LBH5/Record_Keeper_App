@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Text color attributes -->
+    <attr name="textColorHint" format="color" />
+    <attr name="textColorDisabled" format="color" />
+    <attr name="textColorLink" format="color" />
+    <attr name="colorGray300" format="color" />
+
+    <!-- Custom shadow color attributes -->
+    <attr name="colorShadowLight" format="color" />
+    <attr name="colorShadowMedium" format="color" />
+    <attr name="colorShadowStrong" format="color" />
+    <attr name="colorScrim" format="color" />
+</resources>

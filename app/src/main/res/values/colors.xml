@@ -1,5 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!-- Brand / Primary colors -->
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="purple_200">#BB86FC</color>
+
+    <!-- Accent / Secondary colors -->
+    <color name="teal_200">#03DAC6</color>
+    <color name="teal_700">#018786</color>
+
+    <!-- Neutral & Background -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray_50">#FAFAFA</color>
+    <color name="gray_300">#E0E0E0</color>
+    <color name="gray_900">#121212</color>
+
+    <!-- Text colors -->
+    <color name="text_primary_light">#212121</color> <!-- near-black -->
+    <color name="text_secondary_light">#757575</color> <!-- medium gray -->
+    <color name="text_hint_light">#9E9E9E</color> <!-- light gray for hints -->
+    <color name="text_disabled_light">#BDBDBD</color> <!-- very light gray -->
+
+    <!-- Optional link color -->
+    <color name="text_link_light">#1E88E5</color> <!-- blue accent -->
+
+    <!-- Error -->
+    <color name="red_700">#B00020</color>
+    <color name="red_200">#CF6679</color>
+
+    <!-- Shadows & Overlays -->
+    <color name="shadow_light">#33000000</color> <!-- 20% black, soft shadow -->
+    <color name="shadow_medium">#55000000</color> <!-- 33% black -->
+    <color name="shadow_strong">#88000000</color> <!-- 53% black -->
+    <color name="scrim_light">#80000000</color> <!-- 50% black overlay -->
 </resources>

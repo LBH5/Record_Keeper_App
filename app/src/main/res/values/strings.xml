@@ -2,6 +2,17 @@
     <string name="app_name">Record Keeper App</string>
     <string name="icon_title_running">Running</string>
     <string name="icon_title_cycling">Cycling</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_running">Running</string>
+    <string name="desc_running_heading_image">Running heading image!</string>
+    <string name="text_5km">5km</string>
+    <string name="text_10km">10km</string>
+    <string name="text_half_marathon">Half Marathon</string>
+    <string name="text_marathon">Marathon</string>
+    <string name="desc_cycling_heading_image">Cycling heading image!</string>
+    <string name="text_cycling">Cycling</string>
+    <string name="text_longest_ride">Longest Ride</string>
+    <string name="menu_item_title_reset_running_records">Reset Running Records</string>
+    <string name="menu_item_title_reset_cycling_records">Reset Cycling Records</string>
+    <string name="menu_item_title_reset_all_records">Reset All Records</string>
 </resources>

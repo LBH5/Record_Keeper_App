@@ -1,8 +1,37 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.RecordKeeperApp" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.RecordKeeperApp" parent="Theme.Material3.DayNight">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryContainer">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary color -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Background / surface -->
+        <item name="android:colorBackground">@color/white</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnBackground">@color/black</item>
+        <item name="colorOnSurface">@color/text_secondary_light</item>
+        <item name="colorGray300">@color/gray_300</item>
+
+        <!-- Error -->
+        <item name="colorError">@color/red_700</item>
+        <item name="colorOnError">@color/white</item>
+
+        <!-- Shadow attributes -->
+        <item name="colorShadowLight">@color/shadow_light</item>
+        <item name="colorShadowMedium">@color/shadow_medium</item>
+        <item name="colorShadowStrong">@color/shadow_strong</item>
+        <item name="colorScrim">@color/scrim_light</item>
+
+        <!-- Primary Text Colors -->
+        <item name="textColorHint">@color/text_hint_light</item>
+        <item name="textColorDisabled">@color/text_disabled_light</item>
+        <item name="textColorLink">@color/text_link_light</item>
     </style>
 
     <style name="Theme.RecordKeeperApp" parent="Base.Theme.RecordKeeperApp" />
