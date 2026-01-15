@@ -15,4 +15,8 @@
     <string name="menu_item_title_reset_running_records">Reset Running Records</string>
     <string name="menu_item_title_reset_cycling_records">Reset Cycling Records</string>
     <string name="menu_item_title_reset_all_records">Reset All Records</string>
+    <string name="new_record">New Record</string>
+    <string name="new_date">New Date</string>
+    <string name="update">UPDATE</string>
+    <string name="clear_record">CLEAR RECORD</string>
 </resources>

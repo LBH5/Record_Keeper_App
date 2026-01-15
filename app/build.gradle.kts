@@ -43,12 +43,14 @@ android {
 
 dependencies {
     val fragmentVersion = "1.8.9"
+    val preferenceVersion = "1.2.1"
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
     implementation("androidx.fragment:fragment-ktx:${fragmentVersion}")
+    implementation("androidx.preference:preference-ktx:$preferenceVersion")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

@@ -10,8 +10,9 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.fragment.app.commit
+import com.brnaime.recordkeeperapp.cycling.CyclingFragment
 import com.brnaime.recordkeeperapp.databinding.ActivityMainBinding
-import com.google.android.material.appbar.MaterialToolbar
+import com.brnaime.recordkeeperapp.running.RunningFragment
 
 class MainActivity : AppCompatActivity() {
 
@@ -68,7 +69,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun onRunningBtnClicked(): Boolean {
         supportFragmentManager.commit {
-            replace(R.id.frame_content, RunningFragment( ))
+            replace(R.id.frame_content, RunningFragment())
         }
         invalidateOptionsMenu()
         return true
@@ -76,7 +77,7 @@ class MainActivity : AppCompatActivity() {
     }
     private fun onCyclingBtnClicked(): Boolean {
         supportFragmentManager.commit {
-            replace(R.id.frame_content, CyclingFragment( ))
+            replace(R.id.frame_content, CyclingFragment())
         }
         invalidateOptionsMenu()
         return true
