@@ -19,4 +19,6 @@
     <string name="new_date">New Date</string>
     <string name="update">UPDATE</string>
     <string name="clear_record">CLEAR RECORD</string>
+    <string name="best_climb">Best Climb</string>
+    <string name="best_average_speed">Best Average Speed</string>
 </resources>

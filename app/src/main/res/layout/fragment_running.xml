@@ -65,10 +65,8 @@
                     android:id="@+id/text_view_5km_heading"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif"
+                    style="@style/RecordNameTextAppearance"
                     android:text="@string/text_5km"
-                    android:textColor="?attr/colorPrimary"
-                    android:textSize="24sp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -76,9 +74,7 @@
                     android:id="@+id/text_view_5km_value"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-light"
-                    android:textColor="?attr/colorOnBackground"
-                    android:textSize="24sp"
+                    style="@style/RecordValueTextAppearance"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     tools:text="20:40" />
@@ -88,9 +84,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"
-                    android:fontFamily="sans-serif-light"
-                    android:textColor="?attr/colorOnSurface"
-                    android:textSize="16sp"
+                    style="@style/RecordDateTextAppearance"
                     app:layout_constraintEnd_toEndOf="@id/text_view_5km_value"
                     app:layout_constraintTop_toBottomOf="@id/text_view_5km_value"
                     tools:text="25/11/2025" />
@@ -102,7 +96,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="2dp"
                 android:layout_marginTop="16dp"
-                android:background="?attr/colorGray300" />
+                android:background="@color/green_200" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/container_10km"
@@ -115,10 +109,8 @@
                     android:id="@+id/text_view_10km_heading"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif"
+                    style="@style/RecordNameTextAppearance"
                     android:text="@string/text_10km"
-                    android:textColor="?attr/colorPrimary"
-                    android:textSize="24sp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -126,9 +118,7 @@
                     android:id="@+id/text_view_10km_value"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-light"
-                    android:textColor="?attr/colorOnBackground"
-                    android:textSize="24sp"
+                    style="@style/RecordValueTextAppearance"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     tools:text="40:40" />
@@ -138,9 +128,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"
-                    android:fontFamily="sans-serif-light"
-                    android:textColor="?attr/colorOnSurface"
-                    android:textSize="16sp"
+                    style="@style/RecordDateTextAppearance"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/text_view_10km_value"
                     tools:text="25/11/2025" />
@@ -152,7 +140,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="2dp"
                 android:layout_marginTop="16dp"
-                android:background="?attr/colorGray300" />
+                android:background="@color/green_200" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/container_half_marathon"
@@ -165,10 +153,8 @@
                     android:id="@+id/text_view_half_marathon_heading"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif"
+                    style="@style/RecordNameTextAppearance"
                     android:text="@string/text_half_marathon"
-                    android:textColor="?attr/colorPrimary"
-                    android:textSize="24sp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -176,9 +162,7 @@
                     android:id="@+id/text_view_half_marathon_value"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-light"
-                    android:textColor="?attr/colorOnBackground"
-                    android:textSize="24sp"
+                    style="@style/RecordValueTextAppearance"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     tools:text="20:40" />
@@ -188,9 +172,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"
-                    android:fontFamily="sans-serif-light"
-                    android:textColor="?attr/colorOnSurface"
-                    android:textSize="16sp"
+                    style="@style/RecordDateTextAppearance"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/text_view_half_marathon_value"
                     tools:text="25/11/2025" />
@@ -202,7 +184,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="2dp"
                 android:layout_marginTop="16dp"
-                android:background="?attr/colorGray300" />
+                android:background="@color/green_200" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/container_marathon"
@@ -215,10 +197,8 @@
                     android:id="@+id/text_view_marathon_heading"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif"
+                    style="@style/RecordNameTextAppearance"
                     android:text="@string/text_marathon"
-                    android:textColor="?attr/colorPrimary"
-                    android:textSize="24sp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -226,9 +206,7 @@
                     android:id="@+id/text_view_marathon_value"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-light"
-                    android:textColor="?attr/colorOnBackground"
-                    android:textSize="24sp"
+                    style="@style/RecordValueTextAppearance"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     tools:text="20:40" />
@@ -238,9 +216,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"
-                    android:fontFamily="sans-serif-light"
-                    android:textColor="?attr/colorOnSurface"
-                    android:textSize="16sp"
+                    style="@style/RecordDateTextAppearance"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/text_view_marathon_value"
                     tools:text="25/11/2025" />

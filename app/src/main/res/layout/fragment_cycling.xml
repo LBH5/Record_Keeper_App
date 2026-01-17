@@ -65,10 +65,8 @@
                     android:id="@+id/text_view_longest_ride_heading"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif"
+                    style="@style/RecordNameTextAppearance"
                     android:text="@string/text_longest_ride"
-                    android:textColor="?attr/colorPrimary"
-                    android:textSize="24sp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -76,9 +74,7 @@
                     android:id="@+id/text_view_longest_ride_value"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-light"
-                    android:textColor="?attr/colorOnBackground"
-                    android:textSize="24sp"
+                    style="@style/RecordValueTextAppearance"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     tools:text="120km" />
@@ -88,9 +84,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"
-                    android:fontFamily="sans-serif-light"
-                    android:textColor="?attr/colorOnSurface"
-                    android:textSize="16sp"
+                    style="@style/RecordDateTextAppearance"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/text_view_longest_ride_value"
                     tools:text="25/11/2025" />
@@ -102,7 +96,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="2dp"
                 android:layout_marginTop="16dp"
-                android:background="?attr/colorGray300" />
+                android:background="@color/green_200" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/container_biggest_climb"
@@ -115,10 +109,8 @@
                     android:id="@+id/text_view_biggest_climb_heading"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif"
-                    android:text="Best Climb"
-                    android:textColor="?attr/colorPrimary"
-                    android:textSize="24sp"
+                    style="@style/RecordNameTextAppearance"
+                    android:text="@string/best_climb"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -126,9 +118,7 @@
                     android:id="@+id/text_view_best_climb_value"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-light"
-                    android:textColor="?attr/colorOnBackground"
-                    android:textSize="24sp"
+                    style="@style/RecordValueTextAppearance"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     tools:text="100km" />
@@ -138,9 +128,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"
-                    android:fontFamily="sans-serif-light"
-                    android:textColor="?attr/colorOnSurface"
-                    android:textSize="16sp"
+                    style="@style/RecordDateTextAppearance"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/text_view_best_climb_value"
                     tools:text="25/11/2025" />
@@ -152,7 +140,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="2dp"
                 android:layout_marginTop="16dp"
-                android:background="?attr/colorGray300" />
+                android:background="@color/green_200" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/container_best_average_speed"
@@ -165,10 +153,8 @@
                     android:id="@+id/text_view_best_average_speed_heading"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif"
-                    android:text="Best Average Speed"
-                    android:textColor="?attr/colorPrimary"
-                    android:textSize="24sp"
+                    style="@style/RecordNameTextAppearance"
+                    android:text="@string/best_average_speed"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -176,9 +162,7 @@
                     android:id="@+id/text_view_best_average_speed_value"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-light"
-                    android:textColor="?attr/colorOnBackground"
-                    android:textSize="24sp"
+                    style="@style/RecordValueTextAppearance"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     tools:text="32km" />
@@ -188,9 +172,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"
-                    android:fontFamily="sans-serif-light"
-                    android:textColor="?attr/colorOnSurface"
-                    android:textSize="16sp"
+                    style="@style/RecordDateTextAppearance"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/text_view_best_average_speed_value"
                     tools:text="25/11/2025" />

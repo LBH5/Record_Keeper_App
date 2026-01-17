@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.brnaime.recordkeeperapp.databinding.FragmentRunningBinding
 import com.brnaime.recordkeeperapp.editrecord.EditRecordActivity
+import com.brnaime.recordkeeperapp.editrecord.INTENT_EXTRA_SCREEN_DATA
 
 class RunningFragment: Fragment() {
 
@@ -34,7 +35,7 @@ class RunningFragment: Fragment() {
     }
 
     private fun displayRecords() {
-        val runningPreferences = requireContext().getSharedPreferences("running", MODE_PRIVATE)
+        val runningPreferences = requireContext().getSharedPreferences(PR_FILENAME, MODE_PRIVATE)
         binding.textView5kmValue.text = runningPreferences.getString("5km record", null)
         binding.textView10kmValue.text = runningPreferences.getString("10km record", null)
         binding.textViewHalfMarathonValue.text = runningPreferences.getString("Half Marathon record", null)
@@ -54,7 +55,14 @@ class RunningFragment: Fragment() {
 
     private fun launchRunningRecordScreen(distance: String) {
         val intent = Intent(this.context, EditRecordActivity::class.java)
-        intent.putExtra("ScreenData", EditRecordActivity.ScreenData(distance,"running", "Time"))
+        intent.putExtra(INTENT_EXTRA_SCREEN_DATA, EditRecordActivity.ScreenData(distance,
+            PR_FILENAME, "Time"))
         startActivity(intent)
     }
+
+    companion object {
+        const val PR_FILENAME = "running"
+    }
 }
+
+

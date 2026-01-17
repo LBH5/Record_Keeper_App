@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.brnaime.recordkeeperapp.databinding.FragmentCyclingBinding
 import com.brnaime.recordkeeperapp.editrecord.EditRecordActivity
+import com.brnaime.recordkeeperapp.editrecord.INTENT_EXTRA_SCREEN_DATA
 
 class CyclingFragment: Fragment() {
 
@@ -33,7 +34,7 @@ class CyclingFragment: Fragment() {
     }
 
     private fun displayRecords() {
-        val cyclingPreferences = requireContext().getSharedPreferences("cycling", MODE_PRIVATE)
+        val cyclingPreferences = requireContext().getSharedPreferences(PR_FILENAME, MODE_PRIVATE)
         binding.textViewLongestRideValue.text = cyclingPreferences.getString("Longest Ride record", null)
         binding.textViewLongestRideDate.text = cyclingPreferences.getString("Longest Ride date", null)
         binding.textViewBestClimbValue.text = cyclingPreferences.getString("Biggest Climb record", null)
@@ -50,7 +51,12 @@ class CyclingFragment: Fragment() {
 
     private fun launchCyclingRecordScreen(ride:String,recordFieldHint:String) {
         val intent = Intent(this.context, EditRecordActivity::class.java)
-        intent.putExtra("ScreenData", EditRecordActivity.ScreenData(ride,"cycling", recordFieldHint))
+        intent.putExtra(INTENT_EXTRA_SCREEN_DATA, EditRecordActivity.ScreenData(ride,
+            PR_FILENAME, recordFieldHint))
         startActivity(intent)
+    }
+
+    companion object {
+        const val PR_FILENAME = "cycling"
     }
 }
